@@ -1,0 +1,156 @@
+/* Basic Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* Modern, professional font stack */
+    background-color: #fff; /* Light background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 5px;
+    font-weight: 700;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  
+  /* Header */
+  header {
+    background-color: #252422; /* Dark blue for a clean header */
+    color: #fffcf2; /* White text for contrast */
+    padding: 1.5em; /* Consistent padding */
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Align items at opposite ends */
+    align-items: center; /* Vertically center content */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.8em; /* Adjust heading size as needed */
+    font-weight: bold; /* Emphasize heading */
+  }
+  
+  nav {
+    display: flex; /* Arrange links horizontally */
+  }
+  
+  nav a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5em 1em; /* Consistent spacing */
+    margin: 0; /* Remove default margin */
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  nav a:hover {
+    color: #ccc; /* Lighter color on hover */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    max-width: 900px; /* Set a max-width for responsiveness */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  /* Forms */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtler shadow */
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px 15px; /* Consistent padding */
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  form textarea {
+    min-height: 200px; /* Adjust minimum height as needed */
+  }
+  
+  form button {
+    background-color: #28a745; /* Green for positive actions (e.g., submit, create) */
+    color: white;
+    padding: 10px 20px; /* Consistent padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  form button:hover {
+    background-color: #218c3f; /* Darker green on hover */
+  }
+  
+  /* Blog List */
+  #blogList {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines on smaller screens */
+  }
+  
+  .blog-item {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px; /* More breathing room */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtler shadow */
+    width: calc(33% - 20px); /* Responsive width based on columns */
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .blog-item:hover {
+    transform: translateY(-2px); /* Slight lift on hover for interactivity */
+  }
+  
+  .blog-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.6em; /* Adjust heading size as needed */
+  }
+
+  /* Base styles for the button */
+button {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer; /* Indicate clickable area */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Adjust these colors to match your website */
+button, #logoutButtin {
+  background-color: #252422; /* Green */
+  color: #fffcf2;
+}
+
+/* Hover effect for the button */
+button:hover, #logoutButtin {
+  background-color: #373431; /* Darker green on hover */
+}
+
+#blogImage {
+  /* Set image width */
+  width: 500px;
+
+  /* Add some margin for spacing */
+  margin: 10px auto;  /* Centers the image horizontally */
+
+  /* Optional: Add a subtle border */
+  border: 1px solid #ddd;
+}
+
