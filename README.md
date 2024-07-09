@@ -71,13 +71,14 @@ This is a blog website project where users can sign up, log in, add posts, delet
 ![image](https://github.com/HarshSoni-26/blog/assets/162913704/dd071809-354e-4e6c-8d36-78b002281cd2)
 
 3.SignUp Page
-![image](https://github.com/HarshSoni-26/blog/assets/162913704/0a99ec25-d64a-4889-9cb0-a5252acf066d)
+![image](https://github.com/HarshSoni-26/blog/assets/162913704/85e82f2d-3438-4a9e-8807-600eb34a08ab)
 
 4.AddPost Page
 ![image](https://github.com/HarshSoni-26/blog/assets/162913704/8de77c3e-cf8f-4a0e-a424-662c7b7d7d7b)
 
 5.BlogPage
-![blogpage](https://github.com/HarshSoni-26/blog/assets/162913704/ce6bab89-37c5-4990-b91f-c26ac437a4b1)
+![image](https://github.com/HarshSoni-26/blog/assets/162913704/8c6ec140-36ba-4c43-81cf-6cc9768b6d5e)
+
 
 
 
