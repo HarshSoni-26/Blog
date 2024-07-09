@@ -78,6 +78,10 @@ This is a blog website project where users can sign up, log in, add posts, delet
 
 5.BlogPage
 ![image](https://github.com/HarshSoni-26/blog/assets/162913704/8c6ec140-36ba-4c43-81cf-6cc9768b6d5e)
+![image](https://github.com/HarshSoni-26/blog/assets/162913704/9f4eb147-0eea-4da4-b5ea-2b8b15cb14a5)
+![image](https://github.com/HarshSoni-26/blog/assets/162913704/395e33b6-4dfc-40da-876e-92082c45e019)
+
+
 
 
 
